@@ -91,8 +91,6 @@ def keyPressed(): #ruch statku przy kliknięciu strzałek
         player.goes_left = True
     if keyCode == RIGHT:
         player.goes_right = True
-    if keyCode == UP:
-        przeciwnik.attack()
 def keyReleased(): #bezruch statku przy puszczeniu strzałek
     if keyCode == LEFT:
         player.goes_left = False
