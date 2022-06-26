@@ -60,7 +60,6 @@ class Przeciwnik(): #klasa Przeciwnik
         delayBetweenAttacksPassed = (currentTime - self.lastAttackTime) > self.delayBetweenAttacks
         if(delayBetweenAttacksPassed):
             self.lastAttackTime = millis()
-            #rect(100,100,100,100)
             # tutaj dodać funkcję wystrzeliwującą pocisk
             
     def buttonsMenu():
